@@ -155,8 +155,8 @@ if __name__ == '__main__':
     print('phi(x) shape=', result.shape)
     print('phi(x) = ', result)
 
-    # Test compute_phi_matrix
-    print('\n===Test compute_phi_matrix===')
+    # Test compute_gram_matrix
+    print('\n===Test compute_gram_matrix===')
     model = GeneralizedLinearModel(input_vector_degree=2, feature_vector_degree=2)
     train_attrs, train_labels = DataLoader.load_dataset(
         './regression-dataset/fData1.csv',
